@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 # edit these version numbers to suit your needs, or define them before running the script
 
 echo "BUILD_TARGETS environment variable can be set as a string split by ':' as you would a PATH variable. Ditto LINK_TARGETS"
